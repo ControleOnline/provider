@@ -16,6 +16,7 @@
     "homepage": "https://github.com/ControleOnline/provider",
     "require": {
         "controleonline/core": "*",
-        "controleonline/user": "*"
+        "controleonline/user": "*",
+        "controleonline/company": "*"
     }    
 }

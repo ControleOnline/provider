@@ -1,0 +1,21 @@
+{
+    "name": "controleonline/provider",
+    "description": "Controle Online - Provider Module",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "Provider"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Provider\\": "src/Provider"
+        },
+        "classmap": [
+            "Module.php"
+        ]
+    },
+    "homepage": "https://github.com/ControleOnline/provider",
+    "require": {
+        "controleonline/core": "*",
+        "controleonline/user": "*"
+    }    
+}
